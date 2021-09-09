@@ -78,7 +78,7 @@ app.get("/url/sentiment", (req,res) => {
             "url": urlToAnalyze,
             "features": {
                 "keywords": {
-                                "emotion": true,
+                                "sentiment": true,
                                 "limit": 1
                             }
             }
